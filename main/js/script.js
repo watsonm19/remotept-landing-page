@@ -1,3 +1,4 @@
+// jQuery
 //scroll to top on page refresh (PART1)
 $(document).ready(function(){
     $(this).scrollTop(0);

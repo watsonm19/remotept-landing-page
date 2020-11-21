@@ -15,6 +15,10 @@ html {
 #cover-page {
     height: 100vh;
     margin-bottom: 75px;
+    /* 
+        image provided from Unsplash via Jonathan Borba
+        https://unsplash.com/@jonathanborba
+     */
     background: url(../images/home-workout-background.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -110,6 +114,10 @@ button {
 }
 
 .form-img {
+    /* 
+        image provided from Unsplash via Jonathan Borba
+        https://unsplash.com/@jonathanborba
+    */
     background-image: url(../images/ab-roller.jpeg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
