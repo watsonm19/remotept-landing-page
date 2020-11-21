@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemotePT</title>
+    <link rel="stylesheet" href="css/bootstrap441.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- div containing cover page background image -->
+    <div id="cover-page">
+        <div class="darken flex-col">
+            <!-- title header -->
+            <header id="title" class="flex-col">
+                <h1>Welcome to <strong><span id="remote">Remote</span>PT</strong></h1>
+                <p><em>"The most convenient way to workout with the best personal trainers around the world."</em></p>
+            </header>
+            <!-- down arrow -->
+            <span id="down">&#8595;</span>
+        </div>
+    </div>
+    <main>
+        <!-- container of three (3) figures with captions -->
+        <div class="container">
+            <div class="row">
+                <!-- figure 1 - left -->
+                <figure class="col-sm text-center">
+                    <h2>Video Chat Training</h2>
+                    <img class="img-small" src="images/video-training.jpeg" alt="">
+                    <figcaption>Work with the best trainer to hit your personal fitness goals. Anytime. From your own home. All you need is a device!</figcaption>
+                </figure>
+                <!-- figure 2 - middle -->
+                <figure class="col-sm text-center">
+                    <h2>Never Fall Off Track</h2>
+                    <img class="img-small" src="images/garage-gym.jpeg" alt="">
+                    <figcaption>With our convenient system, you'll never miss a workout or have a problem staying fit because we cater to your time.</figcaption>
+                </figure>
+                <!-- figure 3 - right -->
+                <figure class="col-sm text-center">
+                    <h2>Free Test Workout</h2>
+                    <img class="img-small" src="images/headstand.jpeg" alt="">
+                    <figcaption>Try a complimentary training session today! Work with one of our very best trainers for a session - at no cost to you.</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <div class="row form-row">
+                <!-- image left of the form -->
+                <div class="form-img col-lg"></div>
+                <!-- form div, including form header -->
+                <div class="col-lg form-section">
+                    <h3 class="text-center">Book a Free Test Workout
+                        <br>
+                        Get Amazing Results!
+                    </h3>
+                    <form action="/" method="POST">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Jordan Smith" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control" id="email" name="email" placeholder="jsmith@example.com" aria-describedby="infoHelp"required>
+                          <small id="infoHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button id="form-button" type="submit" class="btn btn-primary">Book Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- footer information -->
+        <footer>
+            <address>
+              Created by Mark Watson<br>
+              Portfolio Project<br>
+              <a href="mailto:watsonpt7@gmail.com">Contact Me</a><br>
+              <br>
+              Check out <a href="https://github.com/watsonm19" target="_blank">my GitHub</a><br>
+            </address>
+        </footer>
+    </main>
+
+    <script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
